@@ -1,0 +1,13 @@
+<swiper
+  class="swiper-container"
+  [config]="config"
+  (indexChange)="onIndexChange($event)"
+  (swiperTransitionStart)="onSwiperEvent('transitionStart')"
+  (swiperTransitionEnd)="onSwiperEvent('transitionEnd')"
+>
+  <div *ngFor="let slide of slideArray" class="swiper-slide">
+    <div class="Picture">
+      <img [src]="slide.src" alt="slide_picture" />
+    </div>
+  </div>
+</swiper>

@@ -1,0 +1,99 @@
+.Picture_2 {
+  display: inline-block;
+  overflow: hidden;
+  z-index: -10;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.Picture_2 img {
+  width: 930px;
+  margin-top: -140px;
+  margin-bottom: -140px;
+}
+p {
+  margin: 0;
+}
+
+.Section_2 {
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  top: 75px;
+}
+
+.text-container {
+    max-width: 500px;
+}
+
+.Flex_box {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.Column_2 {
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 40%;
+}
+
+.Column_1 {
+  width: 60%;
+}
+
+
+  /* Responsive Styles */
+
+  @media screen and (max-width: 1280px) {
+
+  h3 {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.Picture_2 img {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  }
+
+  @media screen and (max-width: 767px) {
+
+  h1 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+
+.circle img {
+  width: 200px;
+  display: block;
+  top: 0px;
+  position: relative;
+ margin-left: auto;
+  margin-right: auto;
+    left: 0px;
+}
+  }
+
+  @media screen and (max-width: 575px) {
+  h1 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+
+.circle img {
+  width: 200px;
+  display: block;
+  top: 0px;
+  position: relative;
+ margin-left: auto;
+  margin-right: auto;
+    left: 0px;
+}
+  }

@@ -1,0 +1,69 @@
+#video {
+    position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+.header {
+    position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.section_4 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+    top: 300px;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 10%; 
+}
+
+  /* Responsive Styles */
+
+  @media screen and (max-width: 1280px) {
+
+  h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+  }
+
+  @media screen and (max-width: 767px) {
+
+  h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+  }
+
+  @media screen and (max-width: 575px) {
+  h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.header {
+    position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+}
+  }

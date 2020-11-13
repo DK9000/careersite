@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+  font-family: HKGothic;
+  src: url(assets/fonts/HKGothic-Black.woff);
+}
+
+
+@font-face {
+font-family: HKMedium;
+  src: url(assets/fonts/HKGothic-Medium.woff); 
+}
+
+@font-face {
+font-family: HKBold;
+  src: url(assets/fonts/HKGothic-Bold.woff); 
+}
+.Flex_box {
+    display: flex;
+}
+
+
+
+.Column_1 {
+    width: 50%;
+}
+
+.Column_2 {
+    width: 30%;
+}
+
+h2 {
+    font-family: HKGothic;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: HKMedium;
+    font-size: 30px;
+    
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+div {
+    font-family: HKGothic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.flex-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.flex-item {
+    
+    
+    text-align: center;
+  padding: 20px;
+  flex: 50%;
+  max-width: 20%;
+}
+
+
+
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item {
+      width: 100%;
+    flex: 100%;
+  }
+}
