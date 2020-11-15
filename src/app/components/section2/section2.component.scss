@@ -1,3 +1,5 @@
+
+//picture container
 .picture_2 {
   display: inline-block;
   overflow: hidden;
@@ -7,19 +9,21 @@
   right: 0;
 }
 
+
+//picture element
 .picture_2 img {
   width: 930px;
   margin-top: -140px;
   margin-bottom: -140px;
 }
-p {
-  margin: 0;
-}
 
+//h3 styling
 h3 {
   font-size: 2vw;
 }
 
+
+//section container
 .section_2 {
   background-color: white;
   position: relative;
@@ -28,18 +32,20 @@ h3 {
   top: 75px;
 }
 
-
+//flexbox rules to use specifik on this component
 .flex_box {
   margin-left: 7%;
   margin-right: 7%;
 }
-
+//column rules for this specifik component
 .column_2 {
   margin-left: 5%;
   margin-top: 1%;
   width: 40%;
 }
 
+
+//column rules for this specifik component
 .column_1 {
   width: 60%;
 }

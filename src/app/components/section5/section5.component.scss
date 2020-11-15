@@ -1,11 +1,13 @@
 
 
+
+//h2 rules
 h2 {
     text-align: center;
     font-size: 50px;
 }
 
-
+//section container
 .section_5 {
     position: relative;
     margin-top: 5em;
@@ -14,7 +16,7 @@ h2 {
     
 }
 
-
+//responsive styling
 @media screen and (max-width: 575px) { 
 
 h2 {

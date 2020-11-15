@@ -1,10 +1,17 @@
+<!-- section container -->
 <div class="section_6">
+  <!-- h2 element for header -->
   <h2>MØD DINE (MÅSKE) NYE KOLLEGAER</h2>
+  <!-- flex box container -->
   <div class="flex-container">
+    <!-- flex item where a foreach loop in run though angulars internal selector types -->
     <div class="flex-item" *ngFor="let item of items">
-        <div class="picture fade-in">
-          <img [src]="item.src" alt="{{ item.name }}" />
-        </div>
+      <!-- picture container with animation -->
+      <div class="picture fade-in">
+        <!-- image element -->
+        <img [src]="item.src" alt="{{ item.name }}" />
+      </div>
+      <!-- h3 element with the name of employee -->
       <h3>{{ item.name }}</h3>
     </div>
   </div>

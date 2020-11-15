@@ -1,3 +1,6 @@
+
+
+//hover rule to display picture on hover
 .flex-item:hover {
     .picture {
         display: block;
@@ -6,6 +9,8 @@
 
 
 
+
+//picture container
 .picture {
     display: none;
     width: 200px;
@@ -13,11 +18,15 @@
     margin: auto;
 }
 
+
+//rules for picture element
 .picture img{
     object-fit: fill;
     width: 100%;
 }
 
+
+//container for section
 .section_6 {
     position: relative;
     margin-top: 10em;
@@ -25,6 +34,8 @@ text-align: center;
 margin-bottom: 140px;
 }
 
+
+//fade in animation for picture
 .fade-in {
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
