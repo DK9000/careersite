@@ -1,15 +1,13 @@
-
-    <div class="section_6"><h2>MØD DINE (MÅSKE) NYE KOLLEGAER</h2>
-<div class="flex-container">
-
-  <div class="flex-item" *ngFor="let item of items">
-    <div>
-        <h3>{{ item.name }}</h3>
-      
-      <div class="picture fade-in">
-          <img [src]="item.src" alt="{{item.name}}">
+<div class="section_6">
+  <h2>MØD DINE (MÅSKE) NYE KOLLEGAER</h2>
+  <div class="flex-container">
+    <div class="flex-item" *ngFor="let item of items">
+      <div class="city">
+        <div class="picture fade-in">
+          <img [src]="item.src" alt="{{ item.name }}" />
+        </div>
       </div>
+      <h3>{{ item.name }}</h3>
     </div>
   </div>
-</div>
 </div>

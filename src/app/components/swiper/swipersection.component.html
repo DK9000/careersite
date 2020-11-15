@@ -1,3 +1,5 @@
+
+<div class="content">
 <swiper
   class="swiper-container"
   [config]="config"
@@ -6,8 +8,27 @@
   (swiperTransitionEnd)="onSwiperEvent('transitionEnd')"
 >
   <div *ngFor="let slide of slideArray" class="swiper-slide">
-    <div class="Picture">
+    <div class="picture">
       <img [src]="slide.src" alt="slide_picture" />
+      <div class="caption"> {{slide.text}} </div>
     </div>
+    
   </div>
+  
 </swiper>
+
+</div>
+
+<div class="indicator-container">
+  <div class="indicator-col" id="col0">
+
+  </div>
+    <div class="indicator-col" id="col1">
+    
+  </div>
+    <div class="indicator-col" id="col2">
+    
+  </div>
+</div>
+
+

@@ -17,7 +17,9 @@ moving the sections in app.component.ts this makes it easy to maintain and also 
 
 I thought about using BOOTSTRAP or angular materials, but came to the conclusion that i wanted to make it myself. Animations on the site is made with AOS(js library), and some custom css for other elements. 
 
-The app is mostly responsive and is done using media queries in css. I could have gone with IONICS framework that is buildt on Angular, then it would have been a breeze as IONIC takes care of it. Only flaw is that IONIC is not really good for building websites like the handed assignment.
+The app is mostly responsive and is done using media queries in css and scaling units. 
+
+I could have gone with IONICS framework that is buildt on Angular, then it would have been a breeze as IONIC takes care of it. Only flaw is that IONIC is not really good for building websites like the handed assignment.
 
 Optimal conditions for the site is a resolution of 1920x1080 pixels, as most devices(PC and MAC) use this resolution today. 
 
@@ -29,7 +31,9 @@ better media querys
 optimized picture sizes
 
 ## BUGS
-Sometimes on reload in dev mode, the page gets squised to the left side of the screen, but corrects itself when getting to section 3. This is proberly becourse of the AOS library and would need to investigate further.
+Slider is not fully responsive, there is some bug i cant seem to fix with the limited time i have for this project. As stated before, this app is optimized for desktop. i have tested on the phone, and it works, but something is wrong with the css rules
+
+
 
 ## Make the app work
 

@@ -9,10 +9,10 @@
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 6vw;
   color: black;
   text-align: center;
-  line-height: 150px;
+  line-height: 8vw;
 }
 
 .logo img {
@@ -25,24 +25,24 @@ h1 {
 }
 
 .circle img {
-  left: 221px;
-  width: 400px;
+  left: 13vw;
+  width: 20vw;
   display: block;
   position: absolute;
-  top: 150px;
+  top: 16.1vh;
   z-index: -10;
 }
 
 
 
-.Picture_1 {
+.picture_1 {
   display: inline-block;
   max-height: 1150px;
 
   overflow: hidden;
   position: absolute;
   z-index: -10;
-  top: 640px;
+  top: 40.5em;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -50,7 +50,7 @@ h1 {
   right: 0;
 }
 
-.Picture_1 img {
+.picture_1 img {
   width: 100%;
   margin-top: -50px;
   margin-bottom: -50px;
@@ -66,11 +66,7 @@ h1 {
 
   @media screen and (max-width: 1280px) {
 
-  h1 {
-  font-size: 50px;
-  color: black;
-  text-align: center;
-}
+
 
 .circle img {
   width: 200px;
@@ -85,11 +81,7 @@ h1 {
 
   @media screen and (max-width: 767px) {
 
-  h1 {
-  font-size: 50px;
-  color: black;
-  text-align: center;
-}
+
 
 .circle img {
   width: 200px;
@@ -103,14 +95,9 @@ h1 {
   }
 
   @media screen and (max-width: 575px) {
-  h1 {
-  font-size: 25px;
-  color: black;
-  text-align: center;
-  line-height: 50px;
-}
 
-.Picture_1 {
+
+.picture_1 {
   top: 425px;
   width: 90%;
   margin-left: auto;
