@@ -1,34 +1,36 @@
-
+<!-- container for swiper -->
 <div class="content">
-<swiper
-  class="swiper-container"
-  [config]="config"
-  (indexChange)="onIndexChange($event)"
-  (swiperTransitionStart)="onSwiperEvent('transitionStart')"
-  (swiperTransitionEnd)="onSwiperEvent('transitionEnd')"
->
-  <div *ngFor="let slide of slideArray" class="swiper-slide">
-    <div class="picture">
-      <img [src]="slide.src" alt="slide_picture" />
-      <div class="caption"> {{slide.text}} </div>
+  <!-- swiper component from ngx-swiper with config injection and event handling -->
+  <swiper
+    class="swiper-container"
+    configuration
+    for
+    the
+    swiper
+    instance
+    [config]="config"
+    (indexChange)="onIndexChange($event)"
+    (swiperTransitionStart)="onSwiperEvent('transitionStart')"
+    (swiperTransitionEnd)="onSwiperEvent('transitionEnd')"
+  >
+    <!-- for each loop on swiper slide generates all the element needed -->
+    <div *ngFor="let slide of slideArray" class="swiper-slide">
+      <!-- picture container for the swiper -->
+      <div class="picture">
+        <!-- image element for each slide -->
+        <img [src]="slide.src" alt="slide_picture" />
+        <!-- caption container for the slide caption -->
+        <div class="caption">{{ slide.text }}</div>
+      </div>
     </div>
-    
-  </div>
-  
-</swiper>
-
+  </swiper>
 </div>
 
+
+<!-- indicator element for indication which slide is active, home made :)  -->
 <div class="indicator-container">
-  <div class="indicator-col" id="col0">
-
-  </div>
-    <div class="indicator-col" id="col1">
-    
-  </div>
-    <div class="indicator-col" id="col2">
-    
-  </div>
+  <!-- colums for each indicator, this could be done automaticly with an array to form for each of the element in the slide array -->
+  <div class="indicator-col" id="col0"></div>
+  <div class="indicator-col" id="col1"></div>
+  <div class="indicator-col" id="col2"></div>
 </div>
-
-
